@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE12FFA5-639C-4DE2-8398-3BAD0CA2C864}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tours_and_Travels.My.MyApplication</StartupObject>
+    <RootNamespace>Tours_and_Travels</RootNamespace>
+    <AssemblyName>Tours and Travels</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tours and Travels.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tours and Travels.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Car Rentals.Designer.vb">
+      <DependentUpon>Car Rentals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Car Rentals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Companydetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Companydetails.Designer.vb">
+      <DependentUpon>Companydetails.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devotional Cancellation.Designer.vb">
+      <DependentUpon>Devotional Cancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Devotional Cancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devotional Packages.Designer.vb">
+      <DependentUpon>Devotional Packages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Devotional Packages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devotional Report.Designer.vb">
+      <DependentUpon>Devotional Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Devotional Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEVOTIONAL TOUR.Designer.vb">
+      <DependentUpon>DEVOTIONAL TOUR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DEVOTIONAL TOUR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devotional.Designer.vb">
+      <DependentUpon>Devotional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Devotional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goa Cancellation.Designer.vb">
+      <DependentUpon>Goa Cancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Goa Cancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goa Packages.Designer.vb">
+      <DependentUpon>Goa Packages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Goa Packages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goa Report.Designer.vb">
+      <DependentUpon>Goa Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Goa Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GOA TOUR.Designer.vb">
+      <DependentUpon>GOA TOUR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GOA TOUR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goa.Designer.vb">
+      <DependentUpon>Goa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Goa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.vb">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginpage.Designer.vb">
+      <DependentUpon>loginpage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loginpage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logout.Designer.vb">
+      <DependentUpon>logout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="logout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify.Designer.vb">
+      <DependentUpon>Modify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyDV.Designer.vb">
+      <DependentUpon>ModifyDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyDV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modifygoa.Designer.vb">
+      <DependentUpon>Modifygoa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modifygoa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyNI.Designer.vb">
+      <DependentUpon>ModifyNI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyNI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifySI.Designer.vb">
+      <DependentUpon>ModifySI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifySI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="North India Packages.Designer.vb">
+      <DependentUpon>North India Packages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="North India Packages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="North India Report.Designer.vb">
+      <DependentUpon>North India Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="North India Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NORTH INDIA TOUR.Designer.vb">
+      <DependentUpon>NORTH INDIA TOUR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NORTH INDIA TOUR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="North india.Designer.vb">
+      <DependentUpon>North india.vb</DependentUpon>
+    </Compile>
+    <Compile Include="North india.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NorthIndia Cancellation.Designer.vb">
+      <DependentUpon>NorthIndia Cancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NorthIndia Cancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRINT.Designer.vb">
+      <DependentUpon>PRINT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRINT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RulesRegulation.Designer.vb">
+      <DependentUpon>RulesRegulation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RulesRegulation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDV.Designer.vb">
+      <DependentUpon>SearchDV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.vb">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchGOA.Designer.vb">
+      <DependentUpon>SearchGOA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchGOA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchNI.Designer.vb">
+      <DependentUpon>SearchNI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchNI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchSI.Designer.vb">
+      <DependentUpon>SearchSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="South India Packages.Designer.vb">
+      <DependentUpon>South India Packages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="South India Packages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="South India Report.Designer.vb">
+      <DependentUpon>South India Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="South India Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOUTH INDIA TOUR.Designer.vb">
+      <DependentUpon>SOUTH INDIA TOUR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SOUTH INDIA TOUR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="South india.Designer.vb">
+      <DependentUpon>South india.vb</DependentUpon>
+    </Compile>
+    <Compile Include="South india.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SouthIndia Cancellation.Designer.vb">
+      <DependentUpon>SouthIndia Cancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SouthIndia Cancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainRules.Designer.vb">
+      <DependentUpon>TrainRules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrainRules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTDBMDI.Designer.vb">
+      <DependentUpon>TTDBMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TTDBMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTModule.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Car Rentals.resx">
+      <DependentUpon>Car Rentals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Companydetails.resx">
+      <DependentUpon>Companydetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devotional Cancellation.resx">
+      <DependentUpon>Devotional Cancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devotional Packages.resx">
+      <DependentUpon>Devotional Packages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devotional Report.resx">
+      <DependentUpon>Devotional Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEVOTIONAL TOUR.resx">
+      <DependentUpon>DEVOTIONAL TOUR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devotional.resx">
+      <DependentUpon>Devotional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goa Cancellation.resx">
+      <DependentUpon>Goa Cancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goa Packages.resx">
+      <DependentUpon>Goa Packages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goa Report.resx">
+      <DependentUpon>Goa Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GOA TOUR.resx">
+      <DependentUpon>GOA TOUR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goa.resx">
+      <DependentUpon>Goa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginpage.resx">
+      <DependentUpon>loginpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logout.resx">
+      <DependentUpon>logout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify.resx">
+      <DependentUpon>Modify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyDV.resx">
+      <DependentUpon>ModifyDV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modifygoa.resx">
+      <DependentUpon>Modifygoa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyNI.resx">
+      <DependentUpon>ModifyNI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifySI.resx">
+      <DependentUpon>ModifySI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="North India Packages.resx">
+      <DependentUpon>North India Packages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="North India Report.resx">
+      <DependentUpon>North India Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NORTH INDIA TOUR.resx">
+      <DependentUpon>NORTH INDIA TOUR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="North india.resx">
+      <DependentUpon>North india.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NorthIndia Cancellation.resx">
+      <DependentUpon>NorthIndia Cancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRINT.resx">
+      <DependentUpon>PRINT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RulesRegulation.resx">
+      <DependentUpon>RulesRegulation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDV.resx">
+      <DependentUpon>SearchDV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchGOA.resx">
+      <DependentUpon>SearchGOA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchNI.resx">
+      <DependentUpon>SearchNI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchSI.resx">
+      <DependentUpon>SearchSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="South India Packages.resx">
+      <DependentUpon>South India Packages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="South India Report.resx">
+      <DependentUpon>South India Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOUTH INDIA TOUR.resx">
+      <DependentUpon>SOUTH INDIA TOUR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="South india.resx">
+      <DependentUpon>South india.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SouthIndia Cancellation.resx">
+      <DependentUpon>SouthIndia Cancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainRules.resx">
+      <DependentUpon>TrainRules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTDBMDI.resx">
+      <DependentUpon>TTDBMDI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-tourism.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25519-9-cancel-button-hd-thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KTLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.....jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\india-collage-260nw-495742876.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jfif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

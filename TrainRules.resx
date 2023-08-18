@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Important:
+1. For details, rules and terms &amp; conditions of E-Ticketing services, please visit www.services.irctc.co.in.
+2. *New Time Table will be effective from 1-Oct-2017. Departure time and Arrival Time printed on this ERS/VRM is liable to change. Please Check correct departure, arrival from
+Railway Station Enquiry, Dial 139 or SMS RAIL to 139.
+3. There are amendments in certain provision of Refund Rules. Refer Amended Refund Rules w.e.f 12-Nov-2015.(details available on www.irctc.co.in under heading Refund Rule--
+&gt; Cancellation of Ticket and Refund Rules 2015.)
+4. Only IRCTC authorized agents are permitted to book reserved rail e-tickets to the customer.
+5. Customer/passenger should ensure that his or her mobile number is correctly entered by the agent, at the time of booking reserved rail e-tickets through agent.
+6. E-ticket cancellations are permitted through respective agent website only. The customer/passenger should share the OTP with the agent who booked/cancelled the ticket, for
+getting the cancellation refund amount.
+7. The accommodation booked is not transferable and is valid only if the ORIGINAL ID card prescribed is presented during the journey. The ERS/VRM/MRM along with valid id card
+of any one the passenger booked on e-ticket proof in original would be verified by TTE with the name and PNR on the chart. If the Passenger fail to produced/display ERS/VRM due
+to any eventuality(loss, damaged mobile/laptop etc.) but has the prescribed original proof of identity, a penalty of Rs.50/- per ticket as applicable to such cases will be levied. The
+ticket checking staff on board/off board will give excess fare ticket for the same.
+8. E-ticket cancellations are permitted through respective agent website only.
+9. PNRs having fully waitlisted status will be dropped and the names of the passengers will not appear on the chart. They are not allowed to board the train. However the names of
+PARTIALLY waitlisted/ confirmed and RAC will appear in the chart.
+10. Obtain certificate from the TTE /Conductor in case of (a) PARTIALLY waitlisted e-ticket, LESS NO. OF PASSENGERS travel,(b) A.C.FAILURE, (c)TRAVEL IN LOWER CLASS.
+This original certificate must be sent to GGM (IT), IRCTC, Internet Ticketing Centre, IRCA Building, State Entry Road, New Delhi-110055 after filing TDR online within prescribed
+time for claiming refund.
+11. In case of Partial confirmed/RAC/Wait listed ticket, TDR should be filed online within prescribed time in case NO PASSENGER is travelling for processing of refund as per
+Railway refund rules.
+12. While TDR refund requests are filed &amp; registered on IRCTC website www.irctc.co.in, they are processed by Zonal Railways as per Railway Refund Rules (detail available on
+www.irctc.co.in under heading Important Information--&gt;Refund Cancellation Rules.
+13. Confirmed ticket can be cancelled upto thirty minutes before scheduled departure of the train. However, no refund shall be granted on cancellation of confirmed ticket after four
+hours before the scheduled departure of train.
+14. RAC/partially confirmed Ticket can be cancelled upto thirty minutes before scheduled departure of the train. However, refund will be granted as per provisions of extant Railway
+Refund Rule.
+15. In case, on a party e-ticket or a family e-ticket issued for travel of more than one passenger, some passengers have confirmed reservation and others are on RAC or waiting list,
+full refund of fare , less clerkage, shall be admissible for confirmed passengers also subject to the condition that the ticket shall be cancelled online or online TDR shall be filed for
+all the passengers upto thirty minutes before the scheduled departure of the train.
+16. For Suvidha Train, W.e.f. 20-Jan-2018, refund rule will be applicable as per General refund rule.
+17. Only online Boarding Point Change shall be applicable in these train (change of boarding after booking the PNR). Rules will be same as existing rules.
+18. In case Train Cancellation, full refund will be granted automatically by the System.
+19. Passengers are advised not to carry inflammable/dangerous/explosive/articles as part of their luggage and also to desist from smoking in the trains.
+20. Contact us on: - 080-41431000 EXTN 4 , or Mail To: railwaycell@via.com.
+21. Variety of meals available in more than 1500 trains. For delivery of meal of your choice on your seat log on to www.ecatering.irctc.co.in or call 1323 Toll Free. For any
+suggestions/complaints related to Catering services, contact Toll Free No. 1800-111-321 (07.00 hrs to 22.00 hrs).
+22. FOR MEDICAL EMERGENCY/FIRST AID, CONTACT TICKET CHECKING STAFF/GUARD OR DIAL 138. (ALL India Passenger Helpline No. 138).
+23. PNR and train arrival/departure enquiry no. 139.
+24. To report unsavoury situation during journey, Please dial railway security helpline no. 182.
+25.All the Terms and conditions specified will be applicable in case of opting Travel Insurance facility. Please Refer Travel Insuranceâs Terms &amp; Conditions available on Home page
+of www.irctc.co.in website.
+26. Never purchase e-ticket from unauthorized agents or persons, using their personal IDs for commercial purposes. Such tickets are liable to be cancelled and forfeited without
+any refund of money, under section (143) of the Indian Railway Act 1989. List of authorized agents are available on www.irctc.com E-Ticket Agent Locator.
+General Rules/ Information for E-ticket passengers
+a) Status of E-tickets after Chart preparation :
+1. Confirmed E ticket - E-ticket where all passengers are confirmed.
+2. Partially waitlist/Confirmed/RAC E ticket - E-ticket where some passengers are confirmed/ RAC and other wait-listed.
+3. Fully waitlisted E tickets - E-ticket where all passengers are waitlisted.
+b) Authorization to board the train :
+1. Passengers with confirmed E ticket are permitted to board the train. Their name will appear on the reservation chart.
+2. Name of passengers with Partially Waitlisted /Confirmed/RAC will appear on the chart (including the waitlisted passengers in the partially waitlist ticket).
+c) Cancellation &amp; refund rules :
+1. Confirmed E-ticket before chart preparation : E-ticket can be cancelled online and the amount will be refunded electronically to the respective agent's account used for
+booking.
+2. Confirmed E-ticket after chart preparation: Cancellation / Refund request received after preparation of chart are forwarded by IRCTC to concerned railway for manual
+processing. Refund amount received from concerned railway will be credit back to the respective agent's account used for booking by IRCTC</value>
+  </data>
+</root>
